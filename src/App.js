@@ -1,11 +1,12 @@
-import AuthPage from "./Pages/AuthPage/AuthPage";
-import ReqForm from "./components/ReqForm/ReqForm";
-
+import React from "react";
+import Footerr from "./components/DZ/DZ2";
+import Form from "./components/DZ/DZ";
 
 function App() {
   return (
     <>
-      <ReqForm/>
+    <Form/>
+     <Footerr/>
     </>
   );
 }
