@@ -1,9 +1,11 @@
-import RequestForm from "./components/RequestForm/RequestForm";
+import AuthPage from "./Pages/AuthPage/AuthPage";
+import ReqForm from "./components/ReqForm/ReqForm";
+
 
 function App() {
   return (
     <>
-      <RequestForm/>
+      <ReqForm/>
     </>
   );
 }
